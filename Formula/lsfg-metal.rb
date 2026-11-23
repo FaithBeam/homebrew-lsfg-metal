@@ -1,12 +1,12 @@
 # Homebrew formula template. The release workflow (.github/workflows/build.yml) fills in
-# FaithBeam/lsfg-metal, v0.1.0 and 7a43b9cf748212bfc8947bcd65b8fb2fd2c3036f, attaches the result to the GitHub release as lsfg-metal.rb and,
+# FaithBeam/lsfg-metal, v0.1.1 and 48b264927b14d92b0934a17af7c7012f9490a3e1, attaches the result to the GitHub release as lsfg-metal.rb and,
 # if the TAP_TOKEN secret is set, commits it to <owner>/homebrew-lsfg-metal as Formula/lsfg-metal.rb.
 class LsfgMetal < Formula
   desc "Lossless Scaling frame generation for Metal games and Wine/D3DMetal on macOS"
   homepage "https://github.com/FaithBeam/lsfg-metal"
   url "https://github.com/FaithBeam/lsfg-metal.git",
-      tag:      "v0.1.0",
-      revision: "7a43b9cf748212bfc8947bcd65b8fb2fd2c3036f"
+      tag:      "v0.1.1",
+      revision: "48b264927b14d92b0934a17af7c7012f9490a3e1"
   license "GPL-3.0-or-later"
   head "https://github.com/FaithBeam/lsfg-metal.git", branch: "main"
 
